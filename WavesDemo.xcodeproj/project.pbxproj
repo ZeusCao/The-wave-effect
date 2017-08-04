@@ -15,6 +15,7 @@
 		C0260C991F340D89006504B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0260C971F340D89006504B3 /* LaunchScreen.storyboard */; };
 		C0260CA41F340D89006504B3 /* WavesDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0260CA31F340D89006504B3 /* WavesDemoTests.m */; };
 		C0260CAF1F340D89006504B3 /* WavesDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0260CAE1F340D89006504B3 /* WavesDemoUITests.m */; };
+		C0260CBE1F34197B006504B3 /* waveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0260CBD1F34197B006504B3 /* waveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C0260CAA1F340D89006504B3 /* WavesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0260CAE1F340D89006504B3 /* WavesDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavesDemoUITests.m; sourceTree = "<group>"; };
 		C0260CB01F340D89006504B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0260CBC1F34197B006504B3 /* waveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waveView.h; sourceTree = "<group>"; };
+		C0260CBD1F34197B006504B3 /* waveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				C0260C8D1F340D89006504B3 /* AppDelegate.m */,
 				C0260C8F1F340D89006504B3 /* ViewController.h */,
 				C0260C901F340D89006504B3 /* ViewController.m */,
+				C0260CBC1F34197B006504B3 /* waveView.h */,
+				C0260CBD1F34197B006504B3 /* waveView.m */,
 				C0260C921F340D89006504B3 /* Main.storyboard */,
 				C0260C951F340D89006504B3 /* Assets.xcassets */,
 				C0260C971F340D89006504B3 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				C0260C911F340D89006504B3 /* ViewController.m in Sources */,
 				C0260C8E1F340D89006504B3 /* AppDelegate.m in Sources */,
 				C0260C8B1F340D89006504B3 /* main.m in Sources */,
+				C0260CBE1F34197B006504B3 /* waveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

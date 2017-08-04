@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "waveView.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -16,14 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    waveView *aview = [[waveView alloc]initWithFrame:CGRectMake(0, 100, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width)];
+    [self.view addSubview:aview];
+    
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 
 @end
